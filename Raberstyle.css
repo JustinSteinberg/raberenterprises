@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav{
+	background-color: rgba(0, 0, 0, 1);
+	padding: 14px 14px 14px 0;
+}
+
+ul{
+	margin: 0;
+}
+
+li {
+	display: inline;
+	padding: 14px;
+}
+
+nav li:hover{ 
+	background-color: goldenrod;
+}
+
+li a {
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	margin: 14px;
+	font-size: 32px;
+	font-family: "Noto Serif Hong Kong";
+	color: white;
+}
+
+h2, h3, h4 {
+	text-align: center;
+	color: white;
+}
+
+#social-media{
+	margin: 0 0 0 500px;
+	display: inline-block;
+}
+
+#social-media li:hover{
+	background-color: black;
+}
+
+.fa{
+	padding: 15px;
+	font-size: 20px;
+	width: 52px;
+	height: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+
+
+.fa:hover{
+	opacity: 0.7;
+}
+
+.facebook{
+	background: #3B5998;
+	color: white;
+}
+
+.linkedin{
+	background: #dd4b39;
+	color: white;
+}
+
+.twitter{
+	background: #55ACEE;
+	color: white;
+}
+
+.youtube{
+	background: #bb0000;
+	color: white;
+}
+
+.logo-image{
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-top: -6px;
+}
+
+.resize {
+	width: 75px;
+	height: auto;
+}
+
+
+main {
+	margin: 0;
+	width: 100%;
+	height: 600px;
+}
+
+.main {
+	width: 100%;
+	height: 100%;
+	background-image: url("images/street.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.main h2{
+	position: relative;
+	top: 50%;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+	padding: 20px;
+}
+
+footer {
+	text-align: center;
+	padding: 3px;
+	background-color: black;
+}
+
+footer h3{
+	color: white;
+	padding: 5px 5px 10px 5px;
+}
+
+footer h4{
+	padding: 5px;
+}
+
+footer li{
+	display: block;
+}
+
+aside{
+	position: float;
+	display: block;
+}
+
+aside li{
+	color: white;
+	background-color: black;
+}
+
+p {
+	color: white;
+	padding: 5px;
+}
+
