@@ -42,10 +42,26 @@ h2, h3, h4 {
 	color: white;
 }
 
+#nav-links{
+	position: relative;
+	top: 20px;
+}
+
 #social-media{
-	margin: 0 0 0 500px;
+	margin: 0 0 0 0px;
 	display: inline-block;
 }
+
+@media only screen and (max-width: 600px) {
+	#social-media {
+		display: none;
+	}
+}
+
+.nav-row{
+	position: relative;
+}
+
 
 #social-media li:hover{
 	background-color: black;
