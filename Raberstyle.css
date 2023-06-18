@@ -7,6 +7,7 @@
 nav{
 	background-color: rgba(0, 0, 0, 1);
 	padding: 14px 14px 14px 0;
+	overflow: hidden;
 }
 
 ul{
@@ -75,7 +76,7 @@ h2, h3, h4 {
 
 
 	#nav-links li{
-		padding: 3px;
+		padding: 2px;
 		text-align: center;
 	}
 
@@ -230,6 +231,7 @@ footer {
 	text-align: center;
 	padding: 3px;
 	background-color: black;
+	overflow: hidden;
 }
 
 footer h3{
