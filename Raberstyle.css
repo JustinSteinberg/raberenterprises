@@ -80,6 +80,13 @@ h2, h3, h4 {
 	padding: 10px 40px 0px 40px;
 }
 
+.about h1{
+	text-align: left;
+	color: white;
+	font-size: 52px;
+	margin-top: 3.5%;
+}
+
 @media only screen and (max-width: 600px) {
 	#social-media {
 		display: none;
@@ -110,6 +117,13 @@ h2, h3, h4 {
 
 	.nav-row{
 		text-align: center;
+	}
+
+	.about h1{
+		text-align: left;
+		color: white;
+		font-size: 52px;
+		margin-top: 15%;
 	}
 
 	#photo-col{
@@ -181,13 +195,6 @@ main {
 	background-position: center center;
 	opacity: 1;
 
-}
-
-.about h1{
-	text-align: left;
-	color: white;
-	font-size: 52px;
-	margin-top: 3.5%;
 }
 
 .about h2, .about p{
