@@ -153,6 +153,7 @@ main {
 	animation: scrolling-background 24s ease-out infinite;
 	background-size: cover;
 	background-position: center center;
+	opacity: 1;
 
 }
 
