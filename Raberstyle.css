@@ -71,18 +71,19 @@ h2, h3, h4 {
 	height: auto;
 }
 
+
 @media only screen and (max-width: 600px) {
 	#social-media {
 		display: none;
 	}
 
 	nav{
-		padding: 14px 14px 30px 0;
+		padding: 10px 10px 30px 10px;
 	}
 
 
 	#nav-links li{
-		padding: 2px;
+		padding: 1px;
 		text-align: center;
 	}
 
@@ -98,6 +99,11 @@ h2, h3, h4 {
 		width: 50px;
 		height: auto;
 	}
+
+	.nav-row{
+		text-align: center;
+	}
+
 }
 
 .nav-row{
