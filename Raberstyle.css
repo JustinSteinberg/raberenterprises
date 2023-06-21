@@ -88,6 +88,12 @@ h2, h3, h4 {
 	margin-top: 3.5%;
 }
 
+#contact-info-list li{
+	display: block;
+	padding: 5px;
+	text-align: left;
+}
+
 @media only screen and (max-width: 600px) {
 	#social-media {
 		display: none;
@@ -129,6 +135,12 @@ h2, h3, h4 {
 
 	#photo-col{
 		display: none;
+	}
+
+	#contact-info-list a{
+		text-decoration: none;
+		padding: 0;
+		color: black;
 	}
 
 }
@@ -340,12 +352,6 @@ main {
 	left: 0;
 	top: 0;
 	position: absolute;
-}
-
-#contact-info-list li{
-	display: block;
-	padding: 5px;
-	text-align: left;
 }
 
 footer {
