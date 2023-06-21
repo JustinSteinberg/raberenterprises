@@ -94,6 +94,12 @@ h2, h3, h4 {
 	text-align: left;
 }
 
+#contact-info-list a{
+		text-decoration: none;
+		padding: 0;
+		color: black;
+	}
+
 @media only screen and (max-width: 600px) {
 	#social-media {
 		display: none;
