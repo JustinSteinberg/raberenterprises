@@ -92,6 +92,8 @@ h2, h3, h4 {
 	display: inline-block;
 	position: absolute;
 	bottom: 10px;
+	position: relative;
+	float: right;
 }
 
 #social-media li{
@@ -100,7 +102,7 @@ h2, h3, h4 {
 
 .logo-image{
 	position: absolute;
-	top: 25px;
+	bottom: 42px;
 	right: 25px;
 	width: 75px;
 	height: 75px;
@@ -164,8 +166,8 @@ h2, h3, h4 {
 	}
 
 	.logo-image{
-		top: 38px;
-		right: 15px;
+		position: absolute;
+		bottom: 20px;
 		width: 50px;
 		height: 50px;
 		border-radius: 50%;
