@@ -9,64 +9,97 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="sideBar.css">
+
     <link rel="stylesheet" href="Raberstyle.css">
 
-    <!-- <script type="text/javascript" src="/scripts/raberScript.js"></script>-->
+    <script type="text/javascript" src="/scripts/raberScript.js"></script>
 
 </head>
 <body>
 <header>
 	<nav>
+		<span id="sideMenu" onclick="openNav()">&#9776;</span>
+
 		<h1>Raber Enterprises</h1>
-		<div class="row nav-row">
-		<div class="col-xs-12 col-md-8">
-		<ul id="nav-links">
-			<li>
-				<a href="index.html">Home</a>
-			</li>
-			<li>
-				<a href="services.html">Services</a>
-			</li>
-				
-			<div class="drop-dwn">
+
+		<div id="mySideNav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<ul>
 				<li>
-					<a href="about.html">About Us
-						<i class="fa fa-caret-down" id="carrot"></i>
-					</a>
-					<div class="dropdown-content">
-						<a href="">Leadership</a>
-					</div>
+					<a href="index.html">Home</a>
 				</li>
-			</div>
-			<li>
+				<li>
+					<a href="services.html">Services</a>
+				</li>
+				<div class="drop-dwn">
+					<li>
+						<a href="about.html">About Us
+							<i class="fa fa-caret-down" id="carrot"></i>
+						</a>
+						<div class="dropdown-content">
+							<a href="">Leadership</a>
+						</div>
+					</li>
+				</div>
+				<li>
 					<a href="contact.html">Contact</a>
 				</li>
 			</ul>
-	</div>
-	<div class="col-xs-6 col-md-4">
-			<ul id="social-media">
-				<li><a href="#" class="fa facebook">
-					<i class="fab fa-facebook-f text-white"></i>
-				</a>
-				</li>
-				<li>
-				<a href="#" class="fa twitter">
-					<i class="fab fa-twitter text-white"></i>
-				</a>
-				</li>
-				<li>
-				<a href="#" class="fa linkedin">
-					<i class="fab fa-linkedin text-white"></i>
-				</a>
-				</li>
-				<li>
-				<a href="#" class="fa youtube">
-					<i class="fab fa-youtube text-white"></i>
-				</a>
-				</li>
-			</ul>
 		</div>
-	</div>
+
+		<div class="row nav-row">
+			<div class="col-xs-12 col-md-8">
+				<ul id="nav-links">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="services.html">Services</a>
+					</li>
+							
+					<div class="drop-dwn">
+						<li>
+							<a href="about.html">About Us
+								<i class="fa fa-caret-down" id="carrot"></i>
+							</a>
+							<div class="dropdown-content">
+								<a href="">Leadership</a>
+							</div>
+						</li>
+					</div>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-xs-6 col-md-4">
+				<ul id="social-media">
+					<li>
+						<a href="#" class="fa facebook">
+							<i class="fab fa-facebook-f text-white"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="fa twitter">
+							<i class="fab fa-twitter text-white"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="fa linkedin">
+							<i class="fab fa-linkedin text-white"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="fa youtube">
+							<i class="fab fa-youtube text-white"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
 		<a class="" href="/">
 			<div class="logo-image">
 				<img class="resize" src="images/raber_logo.png">
