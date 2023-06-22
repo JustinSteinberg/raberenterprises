@@ -90,6 +90,8 @@ h2, h3, h4 {
 #social-media{
 	margin: 0 0 0px 0px;
 	display: inline-block;
+	position: absolute;
+	bottom: 10px;
 }
 
 #social-media li{
@@ -332,43 +334,43 @@ main {
 
 @keyframes scrolling-background{
 	0%, 100%{
-		background-image: url("images/detail_soho_building.jpg");
+		background-image: url("/images/detail_soho_building.jpg");
 		background-size: 1536px 1024px;
 		opacity: 1;
 
 	}
 	8.33%{
-		background-image: url("images/new_york_city_skyline-b_19.jpg");
+		background-image: url("/images/new_york_city_skyline-b_19.jpg");
 		background-size: 1536px 1024px;
 		opacity: 1;
 	}
 	25%{
-		background-image: url("images/new_york_city_skyline-b_19.jpg");
+		background-image: url("/images/new_york_city_skyline-b_19.jpg");
 		background-size: 1536px 1024px;
 		opacity: 1;
 	}
 	33.33%{
-		background-image: url("images/nyc_urban_city_manhattan.jpg");
+		background-image: url("/images/nyc_urban_city_manhattan.jpg");
 		background-size: 1536px 1024px;
 		opacity: 1;
 	}
 	50%{
-		background-image: url("images/nyc_urban_city_manhattan.jpg");
+		background-image: url("/images/nyc_urban_city_manhattan.jpg");
 		background-size: 1536px 1024px;
 		opacity: 1;
 	}
 	58.33%{
-		background-image: url("images/nyc_new_york_city_2.jpg");
+		background-image: url("/images/nyc_new_york_city_2.jpg");
 		background-size: 1536px 1024px;
 		opacity: 1;
 	}
 	75%{
-		background-image: url("images/nyc_new_york_city_2.jpg");
+		background-image: url("/images/nyc_new_york_city_2.jpg");
 		background-size: 1536px 1024px;
 		opacity: 1;
 	}
 	83.33%{
-		background-image: url("images/detail_soho_building.jpg");
+		background-image: url("/images/detail_soho_building.jpg");
 		background-size: 1536px 1024px;
 		opacity: 1;
 	}
