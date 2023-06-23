@@ -14,16 +14,18 @@
 	}
 
 	nav h1{
-		display: inline;
+		/*display: inline;*/
 		text-align: center;
-		padding: 14px;
+		/*padding: 2px;*/
 		position: relative;
-		bottom: 8px;
+		/*bottom: 8px;*/
 	}
 
 	#sideMenu{
+		position: relative;
+		left: 8px;
 		display: inline;
-		font-size: 60px;
+		font-size: 45px;
 		cursor: pointer;
 		text-align: left;
 		color: white;
