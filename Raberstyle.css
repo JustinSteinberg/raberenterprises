@@ -321,6 +321,7 @@ i #carrot{
 .about{
 	min-height: 100vh;
 	height: fit-content;
+	overflow: hidden;
 }
 
 .about h2, .about p{
