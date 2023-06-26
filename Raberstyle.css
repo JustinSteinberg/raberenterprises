@@ -91,11 +91,13 @@ nav h1{
 h2, h3, h4 {
 	text-align: center;
 	color: white;
+	font-family: "Roboto", sans-serif;
 }
 
 #nav-links{
 	display: inline;
 	padding-top: 3px;
+	font-family: "Roboto", sans-serif;
 }
 
 #social-media{
@@ -435,7 +437,7 @@ i #carrot{
 	overflow: hidden;
 }
 
-.about h2, .about p{
+.about h2, .about h3, .about p{
 	color: black;
 	text-align: left;
 }
@@ -561,6 +563,7 @@ i #carrot{
 	font-size: 18px;
 	transition-duration: 0.4s;
 	cursor: pointer;
+	font-family: "Roboto", sans-serif;
 }
 
 .main-button:hover{
