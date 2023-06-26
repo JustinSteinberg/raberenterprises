@@ -437,11 +437,15 @@ i #carrot{
 	overflow: hidden;
 }
 
-.about h2, .about h3, .about p{
+.about h2, .about p{
 	color: black;
 	text-align: left;
 }
 
+.about h3{
+	color: black;
+	text-align: left;
+}
 
 .about-header{
 	background-image: url("images/street.jpeg");
