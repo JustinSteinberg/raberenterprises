@@ -6,12 +6,25 @@ function closeNav(){
 	document.getElementById("mySideNav").style.width = "0";
 }
 
-/*
-$(window).scroll(function(){
-	if($(window).scrollTop()){
-	$("nav").removeClass("transparent");
+
+const nav = document.getElementsByClassName("header-row");
+
+/*window.onscroll = function() {
+	if (document.body.scrollTop >= 50){
+		nav.classList.add("header-show");
+	}
+	else{
+		nav.classList.remove("header-show");
+	}
+};
+*/
+
+function navCallback(entries){
+	console.log(entries)
 }
-else{
-	$("nav").addClass("transparent");
-}
-});*/
+
+const navOptions = {};
+
+const navObs = new IntersectionObserver(navCallback, navOptions)
+
+navObs.observe(document.querySelector('header'));
