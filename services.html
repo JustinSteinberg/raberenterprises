@@ -22,14 +22,13 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
-    <script type="text/javascript" src="scripts/raberScript.js"></script>
+    <script type="text/javascript" src="scripts/raberScript.js" defer></script>
 
 </head>
 <body>
-	<div class="wrapper">
-<header>
+	<header>
 	<nav>
-		<div class="row nav-row">
+		<div class="row nav-row header-row">
 
 		<div class="col col-pad">
 
@@ -38,7 +37,7 @@
 		</div>
 
 		<div class="col-8 col-pad align-text-center">
-			<h1>Raber Enterprises</h1>
+			<h1 id="bus-header">Raber Enterprises</h1>
 		</div>
 
 
@@ -50,34 +49,9 @@
 
 	</div>
 
-<div id="mySideNav" class="sidenav">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			<ul>
-				<li>
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="services.html">Services</a>
-				</li>
-				<div class="drop-dwn">
-					<li>
-						<a href="about.html">About Us
-							<i class="fa fa-caret-down" id="carrot"></i>
-						</a>
-						<div class="dropdown-content">
-							<a href="">Leadership</a>
-						</div>
-					</li>
-				</div>
-				<li>
-					<a href="contact.html">Contact Us</a>
-				</li>
-			</ul>
-		</div>
-
 	<div class="row nav-row">
 
-		<div class="custom-col-sm-12 col-6">
+		<div class="custom-col-sm-12 col-8">
 		<ul id="nav-links">
 			<li>
 				<a href="index.html">Home</a>
@@ -102,24 +76,25 @@
 	</div>
 	<div class="col">
 			<ul id="social-media">
-				<li><a href="https://www.facebook.com/RaberEnterprisesLLC/" target="_blank" class="fa facebook">
-					<i class="fab fa-facebook-f text-white"></i>
-				</a>
+				<li>
+					<a href="https://www.facebook.com/RaberEnterprisesLLC/" target="_blank "class="fa facebook">
+						<i class="fab fa-facebook-f text-white"></i>
+					</a>
 				</li>
 				<li>
-				<a href="#" class="fa twitter">
-					<i class="fab fa-twitter text-white"></i>
-				</a>
+					<a href="#" class="fa twitter">
+						<i class="fab fa-twitter text-white"></i>
+					</a>
 				</li>
 				<li>
-				<a href="#" class="fa linkedin">
-					<i class="fab fa-linkedin text-white"></i>
-				</a>
+					<a href="#" class="fa linkedin">
+						<i class="fab fa-linkedin text-white"></i>
+					</a>
 				</li>
 				<li>
-				<a href="#" class="fa youtube">
-					<i class="fab fa-youtube text-white"></i>
-				</a>
+					<a href="#" class="fa youtube">
+						<i class="fab fa-youtube text-white"></i>
+					</a>
 				</li>
 			</ul>
 		</div>
@@ -128,51 +103,80 @@
 	</nav>
 </header>
 
+
+<div id="mySideNav" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<ul>
+		<li>
+			<a href="index.html">Home</a>
+		</li>
+		<li>
+			<a href="services.html">Services</a>
+		</li>
+		<!--<div class="drop-dwn">-->
+			<li class="drop-dwn">
+				<a href="about.html">About Us
+					<i class="fa fa-caret-down" id="carrot"></i>
+				</a>
+				<div class="dropdown-content">
+					<a href="">Leadership</a>
+				</div>
+			</li>
+		<!--</div>-->
+		<li>
+			<a href="contact.html">Contact Us</a>
+		</li>
+	</ul>
+</div>
+
+
 <main class="about">
-	<div class="container-fluid h-100 p-0 mt-0">
-		<div class="row services-header">
-			<div class="col">
-				<h1 class="align-middle">Our Services</h1>
+	<div class="layer">
+		<div class="container-fluid h-100 p-0 mt-0">
+			<div class="row services-header">
+				<div class="col">
+					<h1 class="align-middle">Our Services</h1>
+				</div>
 			</div>
-		</div>
-		<div class="row text-center">
-			<div class="col-md-4 col-xs-6 text-left px-5" id="text-col"> 
-				<h3><i class="bi bi-bank2 inline-icon"></i> Rent Collection</h3>
-				<p>
-					Ensure a consistent positive cash flow by collecting rent from each tenenat on a monthly basis.
-				</p>
+			<div class="row text-center">
+				<div class="col-md-4 col-xs-6 text-left px-5" id="text-col"> 
+					<h3><i class="bi bi-bank2 inline-icon"></i> Rent Collection</h3>
+					<p>
+						Ensure a consistent positive cash flow by collecting rent from each tenenat on a monthly basis.
+					</p>
+				</div>
+				<div class="col-md-4 col-xs-6 text-left px-5" id="text-col">
+					<h3><i class="bi bi-file-earmark-bar-graph-fill"></i> Financial Reporting</h3>
+					<p>
+						Offer transparent monthly reporting to landlords, providing a comprehensive understanding of the property's status.
+					</p>
+				</div>
+				<div class="col-md-4 col-xs-6 text-left px-5" id="text-col">
+					<h3><i class="bi bi-tools"></i> Repair and Maintenance</h3>
+					<p>
+						Efficiently manage contractor work for repairs and maintenance. Proactively identify potential issues to save landlords money. Conduct thorough inspections to ensure work meets high standards and precent future maintenance problems.
+					</p>
+				</div>
 			</div>
-			<div class="col-md-4 col-xs-6 text-left px-5" id="text-col">
-				<h3><i class="bi bi-file-earmark-bar-graph-fill"></i> Financial Reporting</h3>
-				<p>
-					Offer transparent monthly reporting to landlords, providing a comprehensive understanding of the property's status.
-				</p>
-			</div>
-			<div class="col-md-4 col-xs-6 text-left px-5" id="text-col">
-				<h3><i class="bi bi-tools"></i> Repair and Maintenance</h3>
-				<p>
-					Efficiently manage contractor work for repairs and maintenance. Proactively identify potential issues to save landlords money. Conduct thorough inspections to ensure work meets high standards and precent future maintenance problems.
-				</p>
-			</div>
-		</div>
-		<div class="row text-center">
-			<div class="col-md-4 col-xs-6 text-left px-5" id="text-col">
-				<h3><i class="bi bi-person-fill-check"></i> Tenant Relations</h3>
-				<p>
-					Serve as the primary point of contact for tenants, addressing their questions, concerns, and request promptly and respectfully. Valuing tenant satisfaction and maintaining the property leads to long-term tenancy.
-				</p>
-			</div>
-			<div class="col-md-4 col-xs-6 text-left px-5" id="text-col">
-				<h3><i class="bi bi-building-fill-lock"></i> Tenant Move Out Inspections</h3>
-				<p>
-					Conduct thorough inspections of tenant spaces before their move-out to prevent conflicts. Clearly communicate the building's expectations to tenants before returning the space to the landlord.
-				</p>
-			</div>
-			<div class="col-md-4 col-xs-6 text-left px-5" id="text-col">
-				<h3><i class="bi bi-receipt-cutoff"></i> Bill Payments</h3>
-				<p>
-					Streamline the process of bill payments by closely monitoring the building's cash flow and budgeting on a monthly basis. Ensure timely and accurate payment of bills while maintaining financial stability.
-				</p>
+			<div class="row text-center">
+				<div class="col-md-4 col-xs-6 text-left px-5" id="text-col">
+					<h3><i class="bi bi-person-fill-check"></i> Tenant Relations</h3>
+					<p>
+						Serve as the primary point of contact for tenants, addressing their questions, concerns, and request promptly and respectfully. Valuing tenant satisfaction and maintaining the property leads to long-term tenancy.
+					</p>
+				</div>
+				<div class="col-md-4 col-xs-6 text-left px-5" id="text-col">
+					<h3><i class="bi bi-building-fill-lock"></i> Tenant Move Out Inspections</h3>
+					<p>
+						Conduct thorough inspections of tenant spaces before their move-out to prevent conflicts. Clearly communicate the building's expectations to tenants before returning the space to the landlord.
+					</p>
+				</div>
+				<div class="col-md-4 col-xs-6 text-left px-5" id="text-col">
+					<h3><i class="bi bi-receipt-cutoff"></i> Bill Payments</h3>
+					<p>
+						Streamline the process of bill payments by closely monitoring the building's cash flow and budgeting on a monthly basis. Ensure timely and accurate payment of bills while maintaining financial stability.
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -20,7 +20,7 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
-    <script type="text/javascript" src="scripts/raberScript.js"></script>
+    <script type="text/javascript" src="scripts/raberScript.js" defer></script>
 
 </head>
 <body>
@@ -35,7 +35,7 @@
 		</div>
 
 		<div class="col-8 col-pad align-text-center">
-			<h1>Raber Enterprises</h1>
+			<h1 id="bus-header">Raber Enterprises</h1>
 		</div>
 
 
@@ -47,34 +47,9 @@
 
 	</div>
 
-<div id="mySideNav" class="sidenav">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			<ul>
-				<li>
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="services.html">Services</a>
-				</li>
-				<div class="drop-dwn">
-					<li>
-						<a href="about.html">About Us
-							<i class="fa fa-caret-down" id="carrot"></i>
-						</a>
-						<div class="dropdown-content">
-							<a href="">Leadership</a>
-						</div>
-					</li>
-				</div>
-				<li>
-					<a href="contact.html">Contact Us</a>
-				</li>
-			</ul>
-		</div>
-
 	<div class="row nav-row">
 
-		<div class="custom-col-sm-12 col-6">
+		<div class="custom-col-sm-12 col-8">
 		<ul id="nav-links">
 			<li>
 				<a href="index.html">Home</a>
@@ -125,24 +100,51 @@
 	</nav>
 </header>
 
+<div id="mySideNav" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<ul>
+		<li>
+			<a href="index.html">Home</a>
+		</li>
+		<li>
+			<a href="services.html">Services</a>
+		</li>
+		<!--<div class="drop-dwn">-->
+			<li class="drop-dwn">
+				<a href="about.html">About Us
+					<i class="fa fa-caret-down" id="carrot"></i>
+				</a>
+				<div class="dropdown-content">
+					<a href="">Leadership</a>
+				</div>
+			</li>
+		<!--</div>-->
+		<li>
+			<a href="contact.html">Contact Us</a>
+		</li>
+	</ul>
+</div>
+
 <main class="about">
-	<div class="container-fluid h-100 p-0 mt-0">
-		<div class="row about-header">
-			<div class="col">
-				<h1 class="align-middle">About Us</h1>
+	<div class="layer">
+		<div class="container-fluid h-100 p-0 mt-0">
+			<div class="row about-header">
+				<div class="col">
+					<h1 class="align-middle">About Us</h1>
+				</div>
 			</div>
-		</div>
-		<div class="row text-center px-10" id="about-row">
-			<div class="col col-xs-6 text-center mx-auto" id="photo-col">
-				<img src="images/manhattan-bridge.jpeg" class="img-fluid">
-			</div>
-			<div class="col col-xs-6 text-left" id="text-col">
-				<h2>Thriving and Expanding since 1948.</h2>
-				<p>
-					Raber Enterprises is a New York-based real estate development and management company specilizing in residential, commercial, and hosptiality opportunities. Raber invests in other sectors and markets as well. 
-					<br> <br>
-					With over 73 years of experience in New York City and across the United States, we create value by broadening our knowledge, relationships, and performance capabilities.   
-				</p>
+			<div class="row text-center px-10" id="about-row">
+				<div class="col col-xs-6 text-center mx-auto" id="photo-col">
+					<img src="images/manhattan-bridge.jpeg" class="img-fluid">
+				</div>
+				<div class="col col-xs-6 text-left" id="text-col">
+					<h2>Thriving and Expanding since 1948.</h2>
+					<p>
+						Raber Enterprises is a New York-based real estate development and management company specilizing in residential, commercial, and hosptiality opportunities. Raber invests in other sectors and markets as well. 
+						<br> <br>
+						With over 73 years of experience in New York City and across the United States, we create value by broadening our knowledge, relationships, and performance capabilities.   
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>

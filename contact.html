@@ -22,7 +22,7 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
-    <script type="text/javascript" src="scripts/raberScript.js"></script>
+    <script type="text/javascript" src="scripts/raberScript.js" defer></script>
 
 </head>
 <body>
@@ -37,7 +37,7 @@
 		</div>
 
 		<div class="col-8 col-pad align-text-center">
-			<h1>Raber Enterprises</h1>
+			<h1 id="bus-header">Raber Enterprises</h1>
 		</div>
 
 
@@ -49,34 +49,9 @@
 
 	</div>
 
-<div id="mySideNav" class="sidenav">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			<ul>
-				<li>
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="services.html">Services</a>
-				</li>
-				<div class="drop-dwn">
-					<li>
-						<a href="about.html">About Us
-							<i class="fa fa-caret-down" id="carrot"></i>
-						</a>
-						<div class="dropdown-content">
-							<a href="">Leadership</a>
-						</div>
-					</li>
-				</div>
-				<li>
-					<a href="contact.html">Contact Us</a>
-				</li>
-			</ul>
-		</div>
-
 	<div class="row nav-row">
 
-		<div class="custom-col-sm-12 col-6">
+		<div class="custom-col-sm-12 col-8">
 		<ul id="nav-links">
 			<li>
 				<a href="index.html">Home</a>
@@ -127,30 +102,57 @@
 	</nav>
 </header>
 
+<div id="mySideNav" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<ul>
+		<li>
+			<a href="index.html">Home</a>
+		</li>
+		<li>
+			<a href="services.html">Services</a>
+		</li>
+		<!--<div class="drop-dwn">-->
+			<li class="drop-dwn">
+				<a href="about.html">About Us
+					<i class="fa fa-caret-down" id="carrot"></i>
+				</a>
+				<div class="dropdown-content">
+					<a href="">Leadership</a>
+				</div>
+			</li>
+		<!--</div>-->
+		<li>
+			<a href="contact.html">Contact Us</a>
+		</li>
+	</ul>
+</div>
+
 <main class="about">
-	<div class="container-fluid h-100 p-0 mt-0">
-		<div class="row contact-header">
-			<div class="col">
-				<h1>Contact Us</h1>
-			</div>
-		</div>
-		<div class="row px-30" id="contact-row">
-			<div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center">
-				<div id="contact-col">
-					<h2>
-						Get in Touch
-					</h2>
-					<ul id="contact-info-list">
-						<li>175 Canal Street</li>
-						<li>New York, NY 10013</li>
-						<li><a href="tel:212-925-1950">212-925-1950</a></li>
-						<li>raber@raberenterprises.com</li>
-					</ul>
+	<div class="layer">
+		<div class="container-fluid h-100 p-0 mt-0">
+			<div class="row contact-header">
+				<div class="col">
+					<h1>Contact Us</h1>
 				</div>
 			</div>
-			<div class="col-sm-12 col-md-6 col-lg-6 text-left" id="text-col">
-				<div class="google-map">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d96769.6922810873!2d-74.07963719655129!3d40.71685230365041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x89c25a279b6b136d%3A0x34ddfed695583cfa!2s175%20Canal%20St%2C%20New%20York%2C%20NY%2010013!3m2!1d40.7168816!2d-73.99723589999999!5e0!3m2!1sen!2sus!4v1687314672431!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<div class="row px-30" id="contact-row">
+				<div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center">
+					<div id="contact-col">
+						<h2>
+							Get in Touch
+						</h2>
+						<ul id="contact-info-list">
+							<li>175 Canal Street</li>
+							<li>New York, NY 10013</li>
+							<li><a href="tel:212-925-1950">212-925-1950</a></li>
+							<li>raber@raberenterprises.com</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-6 text-left" id="text-col">
+					<div class="google-map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d96769.6922810873!2d-74.07963719655129!3d40.71685230365041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x89c25a279b6b136d%3A0x34ddfed695583cfa!2s175%20Canal%20St%2C%20New%20York%2C%20NY%2010013!3m2!1d40.7168816!2d-73.99723589999999!5e0!3m2!1sen!2sus!4v1687314672431!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
 				</div>
 			</div>
 		</div>

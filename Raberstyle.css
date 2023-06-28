@@ -9,13 +9,14 @@ header {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 999;
+	z-index: 10;
 }
 
 nav{
 	background-color: rgba(0, 0, 0, 1);
 	padding: 14px 14px 0px 0;
 	margin: 0;
+	font-size: 24px;
 }
 
 ul{
@@ -25,7 +26,7 @@ ul{
 li {
 	height: 100%;
 	display: inline;
-	padding: 18px 14px 18px 14px;
+	padding: 16px 14px 16px 14px;
 }
 
 .dropdown-content a:hover{
@@ -69,9 +70,10 @@ li a {
 	position: absolute;
 	top: 100%;
 	background-color: white;
-	width: 154.26px;
+	width: 189.39px;
 	box-shadow: 0px 10px 6px -6px #777;
-	z-index: 1;
+	z-index: 21;
+	overflow: visible;
 }
 
 .sidenav .drop-dwn {
@@ -96,13 +98,15 @@ li a {
 h1 {
 	text-align: center;
 	padding-top: 14px;
-	font-size: 32px;
+	/*font-size: 32px;*/
 	font-family: "Oswald", "Playfair Display", sans-serif;
 	color: white;
 }
 
 nav h1{
 	padding: 20px;
+	transition: all 0.3s ease 0s;
+	font-size: 40px;
 
 }
 
@@ -179,11 +183,11 @@ h2, h3, h4 {
 	}
 
 .layer{
-	background-color: rgba(0, 0, 0, 0.2);
+	/*background-color: rgba(0, 0, 0, 0.2);*/
 	position: relative;
 	width: 100%;
 	height: 100%;
-	z-index: 10;
+	z-index: 0;
 }
 
 body{
@@ -205,13 +209,16 @@ nav.transparent{
 }
 
 @media only screen and (max-width: 1098px) and (min-width: 906px) {
+	nav{
+		font-size: 18px;
+	}
 
 	body{
 		padding-top: 160px;
 	}
 
 	#nav-links li{
-		padding: 23px 2px 23px 2px;
+		padding: 23px 12px 23px 12px;
 		text-align: center;
 	}
 
@@ -226,12 +233,16 @@ nav.transparent{
 	}
 
 	.dropdown-content{
-		width: 130.26px;
+		width: 159.05px;
 	}
 
 }
 
 @media only screen and (max-width: 905px) and (min-width: 601px) {
+
+	nav{
+		font-size: 18px;
+	}
 
 	body{
 		padding-top: 160px;
@@ -242,12 +253,12 @@ nav.transparent{
 	}
 
 	#nav-links li{
-		padding: 13px 22px 13px 22px;
+		padding: 12px 18px 12px 18px;
 		text-align: center;
 	}
 
 	.dropdown-content{
-		width: 170.26px;
+		width: 171.05px;
 	}
 
 	#social-media{
@@ -279,11 +290,13 @@ nav.transparent{
 	}
 
 	nav{
-		padding: 10px 22px 10px 22px;
+		padding: 10px 16px 10px 16px;
 	}
 
 	nav h1{
 		padding: 20px 0px;
+		font-size: 32px;
+
 	}
 
 	#nav-links{
@@ -356,6 +369,7 @@ nav.transparent{
 
 	nav h1{
 		padding: 20px 0px;
+		font-size: 32px;
 	}
 
 	#nav-links{
@@ -406,9 +420,16 @@ nav.transparent{
 	margin-top: 10px;
 }
 
-
 #social-media li:hover{
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.fa-facebook-f:hover{
+	background-color: #3B5998;
+}
+
+.twitter:hover{
+	background-image: #00B6F1;
 }
 
 .fa{
@@ -428,11 +449,19 @@ nav.transparent{
 	width: 0;
 }
 
+i{ 
+	z-index: 10;
+}
+
 i #carrot{
 	font-size: 16px;
 	padding: 14px;
 	width: 0;
 
+}
+
+i:hover{
+	color: white;
 }
 
 .fa:hover{
@@ -542,6 +571,29 @@ i #carrot{
 	width: 500px;
 	height: auto;
 
+}
+
+.nav-scroll-class {
+	background-color: rgba(0,0,0,0.2);
+	backdrop-filter: blur(8px);
+	font-size: 16px;
+	margin-top: -5px;
+	overflow-y: visible;
+}
+
+.header-style-scroll{
+	font-size: 32px;
+}
+
+.logo-image-scroll{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.resize-scroll{
+	width: 50px;
+	height: auto;
 }
 
 @-webkit-keyframes scrolling-background{
