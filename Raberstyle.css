@@ -494,7 +494,7 @@ i:hover{
 	width: 100%;
 	height: 100vh;
 	background-image: url("images/street.jpeg");
-	-webkit-animation: scrolling-background 24s ease-in-out 0s infinite;
+	/*-webkit-animation: scrolling-background 24s ease-in-out 0s infinite;*/
 	animation-name: scrolling-background; 
 	animation-duration: 24s;
 	animation-timing-function: ease-in-out;
@@ -576,6 +576,7 @@ i:hover{
 .nav-scroll-class {
 	background-color: rgba(0,0,0,0.2);
 	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
 	font-size: 16px;
 	margin-top: -5px;
 	overflow-y: visible;
@@ -595,51 +596,51 @@ i:hover{
 	width: 50px;
 	height: auto;
 }
-
-@-webkit-keyframes scrolling-background{
-	0%, 100%{
+/*
+@-webkit-keyframes scrolling-background {
+	0%, 100% {
 		background-image: url("images/detail_soho_building.jpg");
-		/*background-size: 1536px 1024px;*/
+		/*background-size: 1536px 1024px;
 		opacity: 1;
 
 	}
 	8.33%{
 		background-image: url("images/new_york_city_skyline-b_19.jpg");
-		/*background-size: 1536px 1024px;*/
+		/*background-size: 1536px 1024px;
 		opacity: 1;
 	}
 	25%{
 		background-image: url("images/new_york_city_skyline-b_19.jpg");
-		/*background-size: 1536px 1024px;*/
+		/*background-size: 1536px 1024px;
 		opacity: 1;
 	}
-	33.33%{
+	33.33% {
 		background-image: url("images/nyc_urban_city_manhattan.jpg");
-		/*background-size: 1536px 1024px;*/
+		/*background-size: 1536px 1024px;
 		opacity: 1;
 	}
-	50%{
+	50% {
 		background-image: url("images/nyc_urban_city_manhattan.jpg");
-		/*background-size: 1536px 1024px;*/
+		/*background-size: 1536px 1024px;
 		opacity: 1;
 	}
-	58.33%{
+	58.33% {
 		background-image: url("images/nyc_new_york_city_3.jpg");
-		/*background-size: 1536px 1024px;*/
+		/*background-size: 1536px 1024px;
 		opacity: 1;
 	}
-	75%{
+	75% {
 		background-image: url("images/nyc_new_york_city_3.jpg");
-		/*background-size: 1536px 1024px;*/
+		/*background-size: 1536px 1024px;
 		opacity: 1;
 	}
-	83.33%{
+	83.33% {
 		background-image: url("images/detail_soho_building.jpg");
-		/*background-size: 1536px 1024px;*/
+		/*background-size: 1536px 1024px;
 		opacity: 1;
 	}
 
-}
+}*/
 
 @keyframes scrolling-background{
 	0%, 100%{
