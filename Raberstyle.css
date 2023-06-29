@@ -740,6 +740,42 @@ i:hover{
 	position: absolute;
 }
 
+.our-team{
+	width: 100%;
+	height: 100%;
+	background-color: gray;
+}
+
+.our-team h1{
+	color: black;
+}
+
+.our-team h3{
+	padding: 12px;
+	text-align: center;
+}
+
+#lance-image{
+	width: 504px;
+	height: 672px;
+	text-align: center;
+}
+
+.img-container{
+	width: 504px;
+	height: 672px;
+	overflow: hidden;
+	margin: auto;
+}
+
+#jon-image{
+	position: relative;
+	top: -300px;
+	width: 502.6px;
+	height: 1087.5px;
+	text-align: center;
+}
+
 footer {
 	text-align: center;
 	padding: 3px;
