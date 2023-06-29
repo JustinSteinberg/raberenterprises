@@ -756,15 +756,15 @@ i:hover{
 }
 
 #lance-image{
-	width: 432px;
-	height: 576px;
+	width: 300px;
+	height: 400px;
 	text-align: center;
 	border: 5px solid black;
 }
 
 .img-container{
-	width: 432px;
-	height: 576px;
+	width: 300px;
+	height: 400px;
 	overflow: hidden;
 	margin: auto;
 	border: 5px solid black;
@@ -772,9 +772,9 @@ i:hover{
 
 #jon-image{
 	position: relative;
-	top: -270px;
-	width: 436.57px;
-	height: 944.57px;
+	top: -190px;
+	width: 300px;
+	height: 649.35px;
 	text-align: center;
 }
 
