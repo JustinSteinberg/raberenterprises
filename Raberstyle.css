@@ -743,7 +743,7 @@ i:hover{
 .our-team{
 	width: 100%;
 	height: 100%;
-	background-color: gray;
+	background-color: lightgray;
 }
 
 .our-team h1{
@@ -756,27 +756,56 @@ i:hover{
 }
 
 #lance-image{
-	width: 300px;
+	/*width: 300px;
 	height: 400px;
 	text-align: center;
-	border: 5px solid black;
+	border: 2px solid black;
+	padding: 20px;
+	border-radius: 25px;*/
+	border-radius: 1099px;
+	width: calc(100vw - 80px);
+	max-width: 360px;
+	height: auto;
 }
 
 .img-container{
-	width: 300px;
-	height: 400px;
+	/*width: 300px;*/
 	overflow: hidden;
+	position: relative;
+	text-align: center;
 	margin: auto;
-	border: 5px solid black;
+	/*border: 2px solid black;
+	padding: 20px;
+	border-radius: 25px;*/
+	border-radius: 999px;
+	width: calc(100vw - 80px);
+	max-width: 360px;
+	height: auto;
+	max-height: 480px;
+
 }
+/*
+.our-team img{
+	border-radius: 1099px;
+	width: calc(100vw - 80px);
+	max-width: 360px;
+	height: auto;
+}
+*/
 
 #jon-image{
 	position: relative;
-	top: -190px;
-	width: 300px;
-	height: 649.35px;
+	top: -180px;
+	/*width: 300px;
+	height: 800px;*/
 	text-align: center;
+	overflow: hidden
+	border-radius: 999px;
+	width: calc(100vw - 80px);
+	max-width: 360px;
+	height: auto;
 }
+
 
 footer {
 	text-align: center;
