@@ -4,6 +4,13 @@
 	box-sizing: border-box;
 }
 
+:root{
+	--border: 3px;
+	--color1: #6be89b;
+	--color2: #0076a5;
+	--from: 30deg;
+	--distance: 46%;
+}
 
 header {
 	position: fixed;
@@ -375,6 +382,10 @@ nav.transparent{
 	#nav-links{
 		display: none;
 
+	}
+
+	#photo-col{
+		display: none;
 	}
 
 	#nav-links li{
@@ -755,6 +766,7 @@ i:hover{
 	text-align: center;
 }
 
+
 #lance-image{
 	/*width: 300px;
 	height: 400px;
@@ -796,15 +808,17 @@ i:hover{
 #jon-image{
 	position: relative;
 	top: -180px;
+	left: 0px;
 	/*width: 300px;
 	height: 800px;*/
 	text-align: center;
-	overflow: hidden
+	/*overflow: hidden;*/
 	border-radius: 999px;
 	width: calc(100vw - 80px);
 	max-width: 360px;
 	height: auto;
 }
+
 
 
 footer {
