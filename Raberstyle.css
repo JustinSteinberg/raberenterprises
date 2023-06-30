@@ -251,6 +251,10 @@ nav.transparent{
 		font-size: 18px;
 	}
 
+	.nav-row{
+		white-space: nowrap;
+	}
+
 	body{
 		padding-top: 160px;
 	}
@@ -298,11 +302,18 @@ nav.transparent{
 
 	nav{
 		padding: 10px 16px 10px 16px;
+		white-space: nowrap;
+
+	}
+
+	.nav-row{
+		white-space: nowrap;
 	}
 
 	nav h1{
 		padding: 20px 0px;
 		font-size: 32px;
+		white-space: nowrap;
 
 	}
 
@@ -377,6 +388,11 @@ nav.transparent{
 	nav h1{
 		padding: 20px 0px;
 		font-size: 32px;
+
+	}
+
+	.nav-row{
+		white-space: nowrap;
 	}
 
 	#nav-links{
